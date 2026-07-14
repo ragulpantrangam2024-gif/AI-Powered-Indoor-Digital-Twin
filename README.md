@@ -8,7 +8,6 @@ The objective of this task is to understand how a computer reads and represents 
 
 A digital image is a collection of pixels arranged in a two-dimensional grid. In OpenCV, images are stored as **NumPy arrays**, where each pixel contains intensity values.
 
-* **Grayscale Image:** One channel with pixel values ranging from **0 (black)** to **255 (white)**.
 * **Color Image:** Three channels representing **Blue, Green, and Red (BGR)**. OpenCV uses the BGR color format by default.
 
 When an image is loaded using `cv2.imread()`, it is stored as a NumPy array of type `uint8`, meaning each pixel value is represented using an unsigned 8-bit integer.
@@ -42,7 +41,6 @@ After completing this task, I learned:
 
 * How OpenCV reads an image from disk.
 * How images are represented internally as NumPy arrays.
-* The difference between grayscale and color images.
 * Why OpenCV uses the BGR color format.
 * How to access basic image properties such as shape and data type.
 * Why `uint8` is the standard data type for digital images.
