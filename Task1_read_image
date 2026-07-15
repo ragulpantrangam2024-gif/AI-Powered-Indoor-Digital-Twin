@@ -1,0 +1,25 @@
+import cv2
+
+# Read image
+image = cv2.imread(r"D:\rwu\rwu jobs\TwinCube\Stage_1\images\room.jpg")
+
+# Check whether image loaded successfully
+if image is None:
+    print("Error: Could not load image.")
+    exit()
+
+# Display image
+cv2.imshow("Original Image", image)
+
+# Print information
+print("Shape :", image.shape)
+print("Height:", image.shape[0])
+print("Width :", image.shape[1])
+print("Channels:", image.shape[2])
+print("Data Type:", image.dtype)
+
+# Save image
+cv2.imwrite(r"D:\rwu\rwu jobs\TwinCube\Stage_1\results\copied_image.jpg", image)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
