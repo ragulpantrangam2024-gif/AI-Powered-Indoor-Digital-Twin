@@ -115,7 +115,7 @@ cv2.putText(
 # 7. Save Result
 # ----------------------------------------------------------
 
-cv2.imwrite(r"D:\rwu\rwu jobs\TwinCube\Stage_1\results\basic_image.jpg", image)
+cv2.imwrite(r"D:\rwu\rwu jobs\TwinCube\Stage_1\results\edited_image.jpg", image)
 
 # ----------------------------------------------------------
 # 8. Display Result
