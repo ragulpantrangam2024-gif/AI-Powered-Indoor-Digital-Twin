@@ -166,3 +166,109 @@ Understanding pixel manipulation and image representation is essential before im
 - Visual Studio Code
 - Git & GitHub
 * Git & GitHub
+
+
+
+# Stage 1 – Task 3: Image Preprocessing
+
+## Objective
+
+The objective of this task is to understand the importance of image preprocessing before applying computer vision algorithms. Image preprocessing enhances image quality, reduces noise, and prepares the image for reliable feature detection and analysis.
+
+---
+
+## Theory
+
+Image preprocessing is the first stage in most computer vision pipelines. Raw images captured by cameras may contain noise, unnecessary color information, or different image sizes that can negatively affect the performance of feature detection and object recognition algorithms.
+
+Several preprocessing techniques are commonly applied before further image analysis:
+
+- **Grayscale Conversion** reduces a color image from three channels (BGR) to a single intensity channel.
+- **Image Resizing** changes the image dimensions while preserving its content, allowing algorithms to process images at a consistent resolution.
+- **Image Rotation** changes the orientation of an image and is useful for image augmentation and geometric transformations.
+- **Gaussian Blur** smooths the image by reducing high-frequency noise.
+- **Median Blur** removes impulse (salt-and-pepper) noise while preserving object boundaries.
+- **Bilateral Filtering** reduces noise while maintaining sharp edges, making it suitable for computer vision applications.
+
+---
+
+## Implementation
+
+The following preprocessing operations were implemented using OpenCV:
+
+- Loaded a color image.
+- Converted the image to grayscale using `cv2.cvtColor()`.
+- Resized the image using `cv2.resize()`.
+- Rotated the image by 90° clockwise using `cv2.rotate()`.
+- Applied Gaussian Blur using `cv2.GaussianBlur()`.
+- Applied Median Blur using `cv2.medianBlur()`.
+- Applied Bilateral Filtering using `cv2.bilateralFilter()`.
+- Displayed all processed images for comparison.
+- Saved the processed images in the `results` folder.
+
+---
+
+## Output
+
+The following output images were generated:
+
+- Original Image
+- Grayscale Image
+- Resized Image
+- Rotated Image
+- Gaussian Blur
+- Median Blur
+- Bilateral Filter
+
+The processed images are saved in:
+
+```
+Stage_1/results/
+```
+
+---
+
+## Key Learning Outcomes
+
+After completing this task, I learned:
+
+- Why image preprocessing is an essential step in computer vision.
+- How grayscale conversion reduces computational complexity.
+- How image resizing standardizes image dimensions.
+- How image rotation performs geometric transformations.
+- The purpose of Gaussian Blur for reducing image noise.
+- The advantages of Median Blur for removing impulse noise.
+- How Bilateral Filtering smooths an image while preserving edges.
+- How different preprocessing techniques affect image quality and feature visibility.
+
+---
+
+## Applications
+
+The preprocessing techniques implemented in this task are widely used in:
+
+- Feature Detection
+- Edge Detection
+- Image Segmentation
+- Object Detection
+- Face Recognition
+- Autonomous Driving
+- Visual SLAM
+- 3D Reconstruction
+- Medical Image Processing
+
+---
+
+## Relevance to the Final Project
+
+Image preprocessing improves the quality of input images before feature extraction. The techniques learned in this task provide the foundation for the next stages of the project, including edge detection, feature detection, feature matching, camera pose estimation, Visual SLAM, and AI-powered Indoor Digital Twin reconstruction.
+
+---
+
+## Technologies Used
+
+- Python 3
+- OpenCV
+- NumPy
+- Visual Studio Code
+- Git & GitHub
