@@ -272,3 +272,109 @@ Image preprocessing improves the quality of input images before feature extracti
 - NumPy
 - Visual Studio Code
 - Git & GitHub
+
+# Stage 1 – Task 4: Edge Detection
+
+## Objective
+
+The objective of this task is to understand how edges are detected in digital images using classical image processing techniques. Edge detection identifies object boundaries by measuring changes in image intensity and serves as the foundation for feature detection, object recognition, and Visual SLAM.
+
+---
+
+## Theory
+
+An edge is a region in an image where the intensity changes rapidly. These intensity changes usually correspond to object boundaries, corners, or texture variations.
+
+Edge detection converts an image into a representation that highlights structural information while suppressing homogeneous regions. Most edge detection algorithms operate on grayscale images because color information is not required for computing intensity gradients.
+
+In this task, four commonly used edge detection algorithms were implemented:
+
+- **Sobel Operator** – Computes horizontal and vertical intensity gradients.
+- **Scharr Operator** – An improved version of Sobel that provides more accurate gradients for small kernels.
+- **Laplacian Operator** – Computes the second derivative of the image to detect edges in all directions.
+- **Canny Edge Detector** – A multi-stage algorithm that detects strong and continuous edges while reducing noise and false detections.
+
+---
+
+## Implementation
+
+The following operations were implemented using OpenCV:
+
+- Loaded the input image.
+- Converted the image to grayscale.
+- Applied the Sobel operator in both the x and y directions.
+- Combined Sobel X and Sobel Y to obtain the final Sobel edge image.
+- Applied the Scharr operator.
+- Applied the Laplacian operator.
+- Applied the Canny edge detector.
+- Displayed the output of each edge detection algorithm.
+- Saved the generated edge images in the `results` folder.
+
+---
+
+## Output
+
+The following images were generated:
+
+- Original Image
+- Grayscale Image
+- Sobel Edge Detection
+- Scharr Edge Detection
+- Laplacian Edge Detection
+- Canny Edge Detection
+
+The processed images are saved in:
+
+```
+Stage_1/results/
+```
+
+---
+
+## Key Learning Outcomes
+
+After completing this task, I learned:
+
+- What an image edge represents.
+- How image gradients are used to detect edges.
+- The difference between first-order and second-order edge detection methods.
+- How Sobel computes horizontal and vertical gradients.
+- Why Scharr provides more accurate gradient estimation than Sobel for small kernels.
+- How the Laplacian detects edges in all directions.
+- Why the Canny Edge Detector produces cleaner and more reliable edge maps.
+- The importance of edge detection before feature extraction.
+
+---
+
+## Applications
+
+Edge detection is widely used in:
+
+- Feature Detection
+- Image Segmentation
+- Object Detection
+- Face Detection
+- Autonomous Driving
+- Robotics
+- Medical Image Analysis
+- Industrial Inspection
+- Visual SLAM
+- 3D Reconstruction
+
+---
+
+## Relevance to the Final Project
+
+Edge detection is an important preprocessing step in computer vision pipelines. The detected edges reveal the structural information of a scene, making it easier for later algorithms to identify stable feature points.
+
+In the next stage of the project, these concepts will be extended to feature detection algorithms such as Harris Corner Detector, FAST, and ORB, which form the basis of feature matching and Visual SLAM.
+
+---
+
+## Technologies Used
+
+- Python 3
+- OpenCV
+- NumPy
+- Visual Studio Code
+- Git & GitHub
