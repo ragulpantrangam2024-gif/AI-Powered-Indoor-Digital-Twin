@@ -378,3 +378,125 @@ In the next stage of the project, these concepts will be extended to feature det
 - NumPy
 - Visual Studio Code
 - Git & GitHub
+
+
+# Stage 1 – Task 5: Feature Detection
+
+## Objective
+
+The objective of this task is to understand and implement classical feature detection algorithms used in computer vision. Feature detectors identify distinctive points in an image that can be reliably detected and matched across multiple images. These features form the foundation of image matching, camera pose estimation, object tracking, and Visual SLAM.
+
+---
+
+## Theory
+
+A **feature** is a distinctive region in an image that can be recognized even when the viewpoint, scale, or illumination changes. Corners are generally preferred over edges because they contain intensity variations in multiple directions, making them easier to localize and track.
+
+In this task, four popular feature detection algorithms were studied and implemented:
+
+### 1. Harris Corner Detector
+The Harris Corner Detector identifies corners by analyzing intensity changes in both horizontal and vertical directions using image gradients. It computes a corner response for every pixel and classifies regions as flat areas, edges, or corners.
+
+### 2. Shi-Tomasi Corner Detector
+Shi-Tomasi is an improved version of the Harris detector. Instead of using the Harris response equation, it evaluates the minimum eigenvalue of the gradient matrix to select stronger and more reliable corners. It is widely used in feature tracking applications.
+
+### 3. FAST (Features from Accelerated Segment Test)
+FAST is a high-speed corner detector designed for real-time computer vision applications. It compares the intensity of pixels surrounding a candidate pixel and classifies it as a corner based on a predefined threshold. FAST is widely used in robotics and embedded vision because of its computational efficiency.
+
+### 4. ORB (Oriented FAST and Rotated BRIEF)
+ORB combines the FAST detector with the BRIEF descriptor to create a fast, rotation-invariant feature extraction algorithm. It detects keypoints using FAST, assigns an orientation to each keypoint, and computes binary descriptors that can be efficiently matched between images. ORB is the feature extraction algorithm used in ORB-SLAM.
+
+---
+
+## Implementation
+
+The following feature detection algorithms were implemented using OpenCV:
+
+- Loaded the input image.
+- Converted the image to grayscale.
+- Detected Harris corners.
+- Detected Shi-Tomasi corners.
+- Detected FAST keypoints.
+- Detected ORB keypoints and computed ORB descriptors.
+- Visualized detected keypoints on the original image.
+- Saved the output images for comparison.
+
+---
+
+## Output
+
+The following outputs were generated:
+
+- Harris Corner Detection
+- Shi-Tomasi Corner Detection
+- FAST Keypoint Detection
+- ORB Keypoint Detection
+
+The processed images are saved in:
+
+```
+Stage_1/results/
+```
+
+---
+
+## Comparison of Feature Detectors
+
+| Algorithm | Detects Corners | Computes Descriptor | Rotation Invariant | Speed |
+|-----------|-----------------|---------------------|--------------------|-------|
+| Harris | ✅ | ❌ | ❌ | Moderate |
+| Shi-Tomasi | ✅ | ❌ | ❌ | Moderate |
+| FAST | ✅ | ❌ | ❌ | Very Fast |
+| ORB | ✅ | ✅ | ✅ | Very Fast |
+
+---
+
+## Key Learning Outcomes
+
+After completing this task, I learned:
+
+- What image features and keypoints are.
+- Why corners are more reliable than edges for tracking.
+- How Harris detects corners using image gradients.
+- How Shi-Tomasi improves corner selection using eigenvalues.
+- How FAST performs extremely fast corner detection for real-time applications.
+- How ORB combines FAST and BRIEF to detect and describe image features.
+- The difference between a **keypoint** and a **descriptor**.
+- Why ORB descriptors are binary and matched using Hamming distance.
+- Why ORB is widely used in Visual SLAM systems such as ORB-SLAM.
+
+---
+
+## Applications
+
+Feature detection is widely used in:
+
+- Feature Matching
+- Object Recognition
+- Image Stitching
+- Panorama Generation
+- Camera Pose Estimation
+- Visual Odometry
+- Augmented Reality
+- Robotics
+- Autonomous Driving
+- Visual SLAM
+- 3D Reconstruction
+
+---
+
+## Relevance to the Final Project
+
+Feature detection is one of the most important stages in a Visual SLAM pipeline. Reliable keypoints enable the system to identify the same physical locations across multiple frames, allowing the estimation of camera motion and reconstruction of the surrounding environment.
+
+The ORB feature detector implemented in this task serves as the core feature extraction method used in ORB-SLAM and will be used in the next stage for feature matching between images.
+
+---
+
+## Technologies Used
+
+- Python 3
+- OpenCV
+- NumPy
+- Visual Studio Code
+- Git & GitHub
