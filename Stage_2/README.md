@@ -610,3 +610,161 @@ The inlier correspondences obtained in this task will be used in the next stage 
 - NumPy
 - Visual Studio Code
 - Git & GitHub
+
+# Stage 2 – Task 5: Homography and Perspective Transformation
+
+## Objective
+
+The objective of this task is to estimate the Homography Matrix between two images using reliable feature correspondences and use it to perform a perspective transformation. This demonstrates how one image can be geometrically transformed to align with another image of the same scene.
+
+---
+
+## Theory
+
+A **Homography** is a 3×3 transformation matrix that describes the relationship between two views of the same planar scene or two images captured primarily through camera rotation.
+
+After detecting feature correspondences and removing incorrect matches using Lowe's Ratio Test and RANSAC, the remaining inlier correspondences are used to estimate the Homography Matrix.
+
+The estimated Homography Matrix enables the transformation of points from one image to their corresponding locations in another image through perspective transformation.
+
+This technique is widely used in panorama stitching, augmented reality, image registration, document rectification, and robotics.
+
+---
+
+## Implementation
+
+The following steps were implemented using OpenCV:
+
+- Loaded two images of the same scene.
+- Converted both images to grayscale.
+- Detected ORB keypoints.
+- Computed ORB descriptors.
+- Performed KNN feature matching.
+- Applied Lowe's Ratio Test.
+- Removed geometrically inconsistent matches using RANSAC.
+- Estimated the Homography Matrix from the inlier correspondences.
+- Applied perspective transformation using `cv2.warpPerspective()`.
+- Displayed and saved the warped image.
+
+---
+
+## Output
+
+The generated output includes:
+
+- Estimated Homography Matrix.
+- Warped version of Image 1.
+- Original Image 1.
+- Original Image 2.
+
+Example console output:
+
+```
+Homography Matrix:
+
+[[ 0.998  0.006 95.341]
+ [-0.004  1.002  1.876]
+ [ 0.000  0.000  1.000]]
+```
+
+The processed image is saved in:
+
+```
+Stage_2/results/
+```
+
+---
+
+## Key Concepts
+
+### Homography Matrix
+
+A Homography Matrix is a 3×3 projective transformation matrix that maps points from one image to their corresponding locations in another image.
+
+It is estimated from feature correspondences using RANSAC.
+
+---
+
+### Perspective Transformation
+
+Perspective transformation maps every pixel in one image to its new position using the estimated Homography Matrix.
+
+In OpenCV, this transformation is performed using:
+
+```python
+cv2.warpPerspective()
+```
+
+---
+
+### Image Warping
+
+Image warping transforms the appearance of one image so that it aligns with another image captured from a different viewpoint.
+
+If the Homography Matrix is correctly estimated, the warped image closely matches the second image.
+
+---
+
+### Planar Scene
+
+Homography accurately models the relationship between two images when the observed scene is approximately planar or when the camera undergoes pure rotational motion.
+
+Examples include:
+
+- Building facades
+- Roads
+- Floors
+- Walls
+- Posters
+- Documents
+
+---
+
+## Key Learning Outcomes
+
+After completing this task, I learned:
+
+- What a Homography Matrix represents.
+- How Homography is estimated from feature correspondences.
+- The relationship between feature matching and geometric transformation.
+- How perspective transformation is performed using `cv2.warpPerspective()`.
+- Why Homography is suitable for planar scenes.
+- The limitations of Homography for general 3D scenes.
+- How Homography is used in image alignment and computer vision applications.
+
+---
+
+## Applications
+
+Homography is widely used in:
+
+- Panorama Stitching
+- Image Registration
+- Augmented Reality
+- Document Scanning
+- Perspective Correction
+- Robotics
+- Visual SLAM (planar scenes)
+- Structure from Motion (SfM)
+- Camera Motion Analysis
+- 3D Reconstruction
+
+---
+
+## Relevance to the Final Project
+
+Homography estimation demonstrates how reliable feature correspondences can be used to estimate the geometric relationship between two images.
+
+Although modern Visual SLAM systems primarily estimate camera motion using the Essential Matrix and Perspective-n-Point (PnP) for general 3D scenes, Homography remains an important concept for planar environments, image alignment, and understanding geometric transformations.
+
+This task completes the feature matching and geometric verification stage of the AI-Powered Indoor Digital Twin project.
+
+---
+
+## Technologies Used
+
+- Python 3
+- OpenCV
+- NumPy
+- Visual Studio Code
+- Git & GitHub
