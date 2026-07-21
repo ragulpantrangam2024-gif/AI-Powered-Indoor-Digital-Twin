@@ -449,3 +449,164 @@ In the next task, the remaining feature correspondences will be verified using *
 - NumPy
 - Visual Studio Code
 - Git & GitHub
+
+
+# Stage 2 – Task 4: RANSAC (Random Sample Consensus)
+
+## Objective
+
+The objective of this task is to improve the reliability of feature correspondences by removing geometrically inconsistent matches using the Random Sample Consensus (RANSAC) algorithm. RANSAC identifies the subset of feature matches that agree with a common geometric transformation while rejecting incorrect matches (outliers).
+
+---
+
+## Theory
+
+Even after applying K-Nearest Neighbor (KNN) Matching and Lowe's Ratio Test, some incorrect feature correspondences may still remain. These incorrect matches are called **outliers** and can negatively affect camera motion estimation and 3D reconstruction.
+
+RANSAC (Random Sample Consensus) is a robust estimation algorithm that identifies the largest group of feature matches that satisfy a common geometric model.
+
+The algorithm works by repeatedly:
+
+1. Randomly selecting a small subset of feature correspondences.
+2. Estimating a geometric transformation (Homography).
+3. Testing all remaining matches against the estimated model.
+4. Classifying matches as:
+   - **Inliers** – Matches consistent with the estimated transformation.
+   - **Outliers** – Matches that do not satisfy the geometric model.
+5. Repeating the process multiple times and selecting the model with the highest number of inliers.
+
+This process significantly improves the quality of feature correspondences before camera pose estimation.
+
+---
+
+## Implementation
+
+The following steps were implemented using OpenCV:
+
+- Loaded two images of the same scene.
+- Converted both images to grayscale.
+- Detected ORB keypoints.
+- Computed ORB descriptors.
+- Performed KNN feature matching.
+- Applied Lowe's Ratio Test to remove ambiguous matches.
+- Extracted the coordinates of the matched keypoints.
+- Estimated the Homography Matrix using RANSAC.
+- Classified feature correspondences as inliers and outliers.
+- Visualized only the inlier matches.
+- Saved the final RANSAC result.
+
+---
+
+## Output
+
+Example output:
+
+```
+Keypoints Image 1: 500
+Keypoints Image 2: 500
+
+Matches after Lowe Ratio Test: 152
+
+RANSAC Inliers: 127
+RANSAC Outliers: 25
+```
+
+The generated output image displays only the inlier feature correspondences after RANSAC.
+
+The processed image is saved in:
+
+```
+Stage_2/results/
+```
+
+---
+
+## Key Concepts
+
+### Inlier
+
+An inlier is a feature correspondence that agrees with the estimated geometric transformation between the two images.
+
+These matches are considered reliable and are used for camera motion estimation.
+
+---
+
+### Outlier
+
+An outlier is a feature correspondence that does not satisfy the estimated geometric model.
+
+Outliers usually result from:
+
+- Incorrect descriptor matching
+- Repetitive textures
+- Image noise
+- Occlusions
+- Perspective variations
+
+These matches are rejected by RANSAC.
+
+---
+
+### Homography Matrix
+
+A Homography Matrix describes the geometric relationship between two images of the same planar scene or two views related primarily by camera rotation.
+
+RANSAC estimates this matrix while simultaneously identifying the feature correspondences that support it.
+
+---
+
+### RANSAC
+
+Random Sample Consensus is a robust model estimation algorithm that iteratively searches for the largest set of feature correspondences that agree with a common geometric transformation.
+
+Unlike descriptor-based matching, RANSAC verifies feature matches using geometric consistency.
+
+---
+
+## Key Learning Outcomes
+
+After completing this task, I learned:
+
+- Why descriptor similarity alone cannot guarantee correct feature matches.
+- The difference between inliers and outliers.
+- How RANSAC removes geometrically inconsistent correspondences.
+- How a Homography Matrix is estimated from matched feature points.
+- Why robust geometric verification is essential before camera pose estimation.
+- How RANSAC improves the accuracy of feature matching in Visual SLAM.
+
+---
+
+## Applications
+
+RANSAC is widely used in:
+
+- Visual SLAM
+- Visual Odometry
+- Structure from Motion (SfM)
+- Camera Pose Estimation
+- Image Stitching
+- Panorama Generation
+- Augmented Reality
+- Robotics
+- Autonomous Driving
+- 3D Reconstruction
+
+---
+
+## Relevance to the Final Project
+
+Reliable feature correspondences are essential for accurately estimating camera motion and constructing a consistent digital representation of an environment.
+
+RANSAC removes incorrect feature matches before geometric estimation, making it one of the core algorithms in feature-based Visual SLAM systems such as ORB-SLAM.
+
+The inlier correspondences obtained in this task will be used in the next stage to estimate image transformations and understand camera movement.
+
+---
+
+## Technologies Used
+
+- Python 3
+- OpenCV
+- NumPy
+- Visual Studio Code
+- Git & GitHub
