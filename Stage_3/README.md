@@ -1,260 +1,353 @@
-Stage 3: Camera Geometry and Motion Estimation for Visual SLAM
-Overview
+# Stage 3: Camera Geometry and Motion Estimation for Visual SLAM
 
-Stage 3 focuses on the mathematical foundations of Visual SLAM by implementing the complete two-view geometry pipeline. The objective is to estimate the relative motion of a calibrated camera using two images and prepare the data for 3D reconstruction.
+## Overview
 
-The implementation follows the same sequence used in classical feature-based Visual SLAM systems such as ORB-SLAM, where image correspondences are used to estimate camera motion before reconstructing the environment.
+Stage 3 focuses on the mathematical and geometric foundations of **Visual SLAM** by implementing the complete **Two-View Geometry Pipeline**. In this stage, a calibrated camera is used to estimate its relative motion from two images. The workflow follows the same principles used in classical feature-based Visual SLAM systems such as **ORB-SLAM**.
 
-Objectives
+The implementation begins with understanding camera geometry and calibration, followed by feature detection, feature matching, geometric verification using the Fundamental and Essential Matrices, camera pose estimation, and finally epipolar geometry visualization.
 
-The goals of this stage are:
+---
 
-Understand camera geometry.
-Learn intrinsic and extrinsic camera parameters.
-Calibrate a real camera using a chessboard.
-Detect and match ORB features.
-Estimate the Fundamental Matrix.
-Estimate the Essential Matrix.
-Recover camera rotation and translation.
-Visualize epipolar geometry.
-Build a complete camera motion estimation pipeline.
-Topics Covered
-Task 1 – Camera Coordinate Systems
-Objective
+# Objectives
 
-Understand the different coordinate systems used in computer vision.
+The primary objectives of this stage are:
 
-Concepts
-World Coordinate System
-Camera Coordinate System
-Image Coordinate System
-Pixel Coordinate System
-Pinhole Camera Model
-Learning Outcome
+- Understand camera coordinate systems
+- Learn camera intrinsic and extrinsic parameters
+- Calibrate a real camera using a chessboard pattern
+- Detect and match ORB features
+- Estimate the Fundamental Matrix using RANSAC
+- Estimate the Essential Matrix using camera calibration
+- Recover camera rotation and translation
+- Visualize epipolar geometry
+- Build a complete camera motion estimation pipeline
 
-Understand how a 3D point is transformed from the real world into a pixel in an image.
+---
 
-Task 2 – Camera Intrinsic Matrix
-Objective
+# Project Workflow
 
-Study the internal parameters of a camera.
+```text
+Input Images
+      │
+      ▼
+Camera Calibration
+      │
+      ▼
+ORB Feature Detection
+      │
+      ▼
+Feature Matching
+      │
+      ▼
+Fundamental Matrix (RANSAC)
+      │
+      ▼
+Essential Matrix
+      │
+      ▼
+Recover Camera Pose (R, t)
+      │
+      ▼
+Epipolar Geometry Visualization
+      │
+      ▼
+Camera Motion Estimation
+```
 
-Concepts
-Focal Length
-Principal Point
-Intrinsic Matrix
+---
+
+# Task 1 – Camera Coordinate Systems
+
+## Objective
+
+Understand the coordinate systems used in computer vision.
+
+## Topics Covered
+
+- World Coordinate System
+- Camera Coordinate System
+- Image Coordinate System
+- Pixel Coordinate System
+- Pinhole Camera Model
+
+## Learning Outcome
+
+Learn how a 3D point in the world is transformed into a 2D image pixel.
+
+---
+
+# Task 2 – Camera Intrinsic Matrix
+
+## Objective
+
+Understand the internal parameters of a camera.
+
+## Topics Covered
+
+- Focal Length
+- Principal Point
+- Camera Intrinsic Matrix
+
+### Intrinsic Matrix
+
+\[
 K=
-	​
+\begin{bmatrix}
+f_x & 0 & c_x\\
+0 & f_y & c_y\\
+0 & 0 & 1
+\end{bmatrix}
+\]
 
-f
-x
-	​
+## Learning Outcome
 
-0
-0
-	​
+Understand how camera coordinates are projected into image coordinates.
 
-0
-f
-y
-	​
+---
 
-0
-	​
+# Task 3 – Camera Extrinsic Parameters
 
-c
-x
-	​
-
-c
-y
-	​
-
-1
-	​
-
-	​
-
-Learning Outcome
-
-Learn how pixel coordinates are generated from camera coordinates.
-
-Task 3 – Camera Extrinsic Parameters
-Objective
+## Objective
 
 Understand the position and orientation of the camera.
 
-Concepts
-Rotation Matrix
-Translation Vector
+## Topics Covered
 
-Transformation:
+- Rotation Matrix
+- Translation Vector
 
-P
-c
-	​
+### Transformation
 
-=RP
-w
-	​
+\[
+P_c = RP_w+t
+\]
 
-+t
-Learning Outcome
+## Learning Outcome
 
-Understand how the camera moves in 3D space.
+Understand how camera motion is represented mathematically.
 
-Task 4 – Camera Calibration
-Objective
+---
+
+# Task 4 – Camera Calibration
+
+## Objective
 
 Estimate the intrinsic parameters of a real camera.
 
-Dataset
+## Dataset
 
-Real chessboard images captured using a mobile phone.
+- Real chessboard images
+- OpenCV calibration toolbox
 
-OpenCV Functions
-cv2.findChessboardCornersSB()
-cv2.calibrateCamera()
-Outputs
-Camera Matrix
-Distortion Coefficients
-Rotation Vectors
-Translation Vectors
-RMS Reprojection Error
-Results
+## OpenCV Functions Used
 
-The camera was successfully calibrated with a low reprojection error, indicating accurate calibration suitable for Visual SLAM applications.
+- `cv2.findChessboardCornersSB()`
+- `cv2.calibrateCamera()`
 
-Task 5 – Image Formation and Projection
-Objective
+## Outputs
 
-Understand how a 3D point projects onto the image plane.
+- Camera Matrix
+- Distortion Coefficients
+- Rotation Vectors
+- Translation Vectors
+- Reprojection Error
 
-Concepts
-Perspective Projection
-Homogeneous Coordinates
-Camera Projection
+## Result
 
-Projection Equation
+Successfully calibrated the camera with a low reprojection error, providing accurate intrinsic parameters for subsequent pose estimation tasks.
 
-x=K[R∣t]X
-Learning Outcome
+---
 
-Understand the mathematical relationship between 3D points and image pixels.
+# Task 5 – Image Formation and Projection
 
-Task 6 – ORB Feature Detection and Feature Matching
-Objective
+## Objective
+
+Understand the mathematical relationship between 3D world points and 2D image pixels.
+
+## Topics Covered
+
+- Perspective Projection
+- Homogeneous Coordinates
+- Camera Projection Matrix
+
+### Projection Equation
+
+\[
+x = K[R|t]X
+\]
+
+## Learning Outcome
+
+Understand how cameras form images using projective geometry.
+
+---
+
+# Task 6 – ORB Feature Detection and Matching
+
+## Objective
 
 Detect robust feature points and establish correspondences between two images.
 
-Techniques
-ORB Feature Detector
-ORB Descriptor
-Brute Force Matcher
-Hamming Distance
-CrossCheck Matching
-Results
-Detected Keypoints
+## Techniques Used
 
-Image 1 : 1000
+- ORB Feature Detector
+- ORB Binary Descriptor
+- Brute Force Matcher
+- Hamming Distance
+- CrossCheck Matching
 
-Image 2 : 1000
+## Results
 
-Total Matches : 468
-Learning Outcome
+| Metric | Value |
+|---------|------:|
+| Image 1 Keypoints | 1000 |
+| Image 2 Keypoints | 1000 |
+| Total Matches | 468 |
 
-Understand how Visual SLAM establishes feature correspondences between images.
+## Learning Outcome
 
-Task 7 – Fundamental Matrix Estimation
-Objective
+Learn how feature correspondences are established between multiple views.
 
-Estimate the geometric relationship between two images.
+---
 
-OpenCV Function
+# Task 7 – Fundamental Matrix Estimation
+
+## Objective
+
+Estimate the geometric relationship between two uncalibrated images.
+
+## OpenCV Function
+
+```python
 cv2.findFundamentalMat()
-Method
+```
 
-RANSAC
+## Method
 
-Results
-Total Matches : 468
+- RANSAC
+- Epipolar Geometry
 
-Inliers : 260
+## Results
 
-Outliers : 208
-Learning Outcome
+| Metric | Value |
+|---------|------:|
+| Total Matches | 468 |
+| Inliers | 260 |
+| Outliers | 208 |
 
-Understand epipolar constraints and robust outlier rejection.
+## Learning Outcome
 
-Task 8 – Essential Matrix Estimation
-Objective
+Understand robust outlier rejection and epipolar constraints.
 
-Estimate the relative geometry between two calibrated cameras.
+---
 
-OpenCV Function
+# Task 8 – Essential Matrix Estimation
+
+## Objective
+
+Estimate the geometric relationship between two calibrated cameras.
+
+## OpenCV Function
+
+```python
 cv2.findEssentialMat()
-Results
-Total Matches : 468
+```
 
-Inliers : 308
+## Results
 
-Outliers : 160
-Learning Outcome
+| Metric | Value |
+|---------|------:|
+| Total Matches | 468 |
+| Inliers | 308 |
+| Outliers | 160 |
 
-Understand the importance of camera calibration in pose estimation.
+## Learning Outcome
 
-Task 9 – Recover Camera Pose
-Objective
+Understand the role of camera calibration in motion estimation.
 
-Estimate the camera motion between two images.
+---
 
-OpenCV Function
+# Task 9 – Recover Camera Pose
+
+## Objective
+
+Estimate the relative camera motion.
+
+## OpenCV Function
+
+```python
 cv2.recoverPose()
-Results
-Recovered Pose Inliers : 391
+```
 
-Rotation Matrix
+## Results
 
+### Pose Inliers
+
+```text
+391
+```
+
+### Rotation Matrix
+
+```text
 [[ 0.98160859  0.09988626 -0.16268780]
  [-0.09604339  0.99488373  0.03133728]
  [ 0.16498561 -0.01513586  0.98617983]]
+```
 
-Translation Vector
+### Translation Vector
 
+```text
 [[-0.37761659]
  [ 0.11517791]
  [-0.91877079]]
-Learning Outcome
+```
 
-Estimate the relative rotation and translation of a moving camera.
+## Learning Outcome
 
-Task 10 – Epipolar Geometry Visualization
-Objective
+Estimate the camera's rotation and translation between two views.
 
-Visualize the epipolar geometry between two calibrated images.
+---
 
-OpenCV Function
+# Task 10 – Epipolar Geometry Visualization
+
+## Objective
+
+Visualize the epipolar geometry between two images.
+
+## OpenCV Function
+
+```python
 cv2.computeCorrespondEpilines()
-Outputs
-Epipolar Lines
-Feature Correspondences
-Learning Outcome
+```
 
-Understand how the Fundamental Matrix constrains feature matching between images.
+## Outputs
 
-Mini Project – Camera Motion Estimation
-Objective
+- Epipolar Lines
+- Matched Feature Points
 
-Integrate all Stage 3 components into a complete two-view geometry pipeline.
+## Learning Outcome
 
-Pipeline
+Understand how the Fundamental Matrix constrains feature correspondences between images.
+
+---
+
+# Mini Project – Camera Motion Estimation
+
+## Objective
+
+Integrate all Stage 3 components into a complete camera motion estimation pipeline.
+
+## Pipeline
+
+```text
 Input Images
       │
       ▼
 ORB Feature Detection
       │
       ▼
-Descriptor Matching
+Feature Matching
       │
       ▼
 Fundamental Matrix (RANSAC)
@@ -270,48 +363,78 @@ Epipolar Geometry Visualization
       │
       ▼
 Camera Motion Estimation
-Technologies Used
-Python
-OpenCV
-NumPy
-ORB Features
-RANSAC
-Epipolar Geometry
-Camera Calibration
-Multiple View Geometry
-Results Summary
-Task	Result
-Camera Calibration	Successfully estimated intrinsic parameters
-ORB Feature Detection	1000 keypoints per image
-Descriptor Matching	468 feature matches
-Fundamental Matrix	260 inliers
-Essential Matrix	308 inliers
-Recover Pose	391 pose-consistent correspondences
-Epipolar Geometry	Successfully visualized epipolar lines
-Applications
+```
 
-The techniques implemented in this stage form the foundation of numerous computer vision and robotics applications:
+## Outputs
 
-Visual SLAM
-Stereo Vision
-Structure from Motion (SfM)
-Autonomous Navigation
-Mobile Robotics
-Augmented Reality (AR)
-Drone Navigation
-Camera Tracking
-3D Reconstruction
-Key Learning Outcomes
+- Camera Calibration
+- ORB Features
+- Feature Matches
+- Fundamental Matrix
+- Essential Matrix
+- Rotation Matrix
+- Translation Vector
+- Epipolar Geometry Visualization
+
+---
+
+# Technologies Used
+
+- Python
+- OpenCV
+- NumPy
+- ORB Feature Detector
+- Brute Force Matcher
+- RANSAC
+- Multiple View Geometry
+- Camera Calibration
+- Epipolar Geometry
+
+---
+
+# Results Summary
+
+| Task | Result |
+|------|--------|
+| Camera Calibration | Successfully estimated intrinsic parameters |
+| ORB Feature Detection | 1000 keypoints detected in each image |
+| Feature Matching | 468 reliable feature correspondences |
+| Fundamental Matrix | 260 inliers after RANSAC |
+| Essential Matrix | 308 inliers |
+| Recover Camera Pose | 391 pose-consistent correspondences |
+| Epipolar Geometry | Successfully visualized epipolar constraints |
+
+---
+
+# Applications
+
+The techniques implemented in this stage are fundamental to:
+
+- Visual SLAM
+- Stereo Vision
+- Structure from Motion (SfM)
+- Autonomous Driving
+- Mobile Robotics
+- Drone Navigation
+- Camera Tracking
+- 3D Reconstruction
+- Augmented Reality (AR)
+
+---
+
+# Key Learning Outcomes
 
 By completing Stage 3, I gained practical experience in:
 
-Camera modeling and calibration
-Coordinate system transformations
-Feature detection and descriptor matching
-Robust geometric estimation using RANSAC
-Fundamental and Essential Matrix estimation
-Camera pose recovery
-Epipolar geometry
-Two-view geometry for Visual SLAM
+- Camera modeling
+- Camera calibration
+- Coordinate transformations
+- Feature detection and matching
+- Robust geometric estimation using RANSAC
+- Fundamental Matrix estimation
+- Essential Matrix estimation
+- Camera pose recovery
+- Epipolar geometry
+- Two-view geometry for Visual SLAM
 
-These concepts provide the mathematical and algorithmic foundation required for the next stage of the project, where the estimated camera motion will be used to reconstruct a sparse 3D representation of the environment through triangulation.
+This stage provides the mathematical and algorithmic foundation for **Stage 4**, where the recovered camera poses will be used to triangulate feature correspondences and reconstruct a sparse 3D representation of the scene.
