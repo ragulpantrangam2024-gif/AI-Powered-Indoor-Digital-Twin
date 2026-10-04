@@ -1,0 +1,24 @@
+STAGE 7 - TASK 4
+2D TO 3D SEMANTIC OBJECT ASSOCIATION
+======================================================================
+
+Total YOLO detections : 27
+Detections processed : 4
+Successful associations : 4
+Failed associations : 0
+Frames without camera pose : 22
+Association success rate : 100.00%
+
+SEMANTIC OBJECT SUMMARY
+
+bed
+Observations : 1
+Mean 3D position : (0.5765, 0.1990, 6.9147)
+
+keyboard
+Observations : 1
+Mean 3D position : (4.4034, -0.9370, 3.9585)
+
+laptop
+Observations : 2
+Mean 3D position : (1.5660, -1.1004, 3.0780)

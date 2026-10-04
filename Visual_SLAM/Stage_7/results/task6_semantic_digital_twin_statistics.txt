@@ -1,0 +1,45 @@
+STAGE 7 - TASK 6
+FINAL SEMANTIC 3D DIGITAL TWIN
+======================================================================
+
+Optimized 3D Map Points: 2236
+Camera Keyframes: 42
+Trajectory Positions: 42
+Semantic Objects: 5
+
+TRAJECTORY
+Displacement: 4.712669
+Path Length: 22.104688
+Directness: 0.213198
+
+SEMANTIC OBJECTS
+
+Object ID: object_000
+Class: bed
+Observations: 9
+Mean Confidence: 0.6166
+3D Center: (0.5127, -0.1066, 6.8684)
+
+Object ID: object_001
+Class: chair
+Observations: 2
+Mean Confidence: 0.5509
+3D Center: (1.0826, -0.9426, 2.8407)
+
+Object ID: object_002
+Class: keyboard
+Observations: 2
+Mean Confidence: 0.6129
+3D Center: (4.4034, -0.9372, 3.9336)
+
+Object ID: object_003
+Class: laptop
+Observations: 1
+Mean Confidence: 0.7860
+3D Center: (44.2165, 23.3582, -35.9096)
+
+Object ID: object_004
+Class: laptop
+Observations: 9
+Mean Confidence: 0.8983
+3D Center: (1.5462, -1.0976, 3.0774)

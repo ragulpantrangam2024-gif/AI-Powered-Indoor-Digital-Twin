@@ -1,0 +1,43 @@
+STAGE 5 - TASK 6
+CORRECTED CAMERA TRAJECTORY ANALYSIS
+============================================================
+
+Trajectory Shape : (125, 3)
+Number of Camera Positions : 125
+
+Initial Position
+[0. 0. 0.]
+
+Final Position
+[12.80022066 13.71153409 12.90359754]
+
+Start-to-End Displacement
+Displacement Vector:
+[12.80022066 13.71153409 12.90359754]
+Displacement Magnitude (arbitrary scale): 22.767403
+
+Total Estimated Path Length
+124.000000 (arbitrary scale)
+
+Frame-to-Frame Motion
+Average : 1.000000
+Median  : 1.000000
+Minimum : 1.000000
+Maximum : 1.000000
+
+Trajectory Coordinate Ranges
+X Range : -2.460029 to 13.362130
+Y Range : -0.863834 to 19.183340
+Z Range : 0.000000 to 16.741908
+
+Axis Ranges
+X : 15.822159
+Y : 20.047174
+Z : 16.741908
+
+Trajectory Directness : 0.183608
+
+NOTE:
+The trajectory is from monocular Visual Odometry.
+Translation scale is unknown.
+Therefore, distances are expressed in arbitrary scale units.

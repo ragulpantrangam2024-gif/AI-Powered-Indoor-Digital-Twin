@@ -1,0 +1,29 @@
+STAGE 7 - TASK 1
+LOAD AND VALIDATE STAGE 6 RECONSTRUCTION
+======================================================================
+
+3D MAP
+Number of Points : 2236
+Shape : (2236, 3)
+Minimum XYZ : [-154.33963874  -53.38056641 -133.06798577]
+Maximum XYZ : [325.38361709  85.85910769 371.29133103]
+Mean XYZ : [ 4.79823101 -1.30623619  7.8613906 ]
+Standard Deviation : [20.62599312  6.05946017 17.47931731]
+Map Range : [479.72325583 139.2396741  504.3593168 ]
+
+CAMERA POSES
+Rotations : (42, 3, 3)
+Translations : (42, 3)
+
+CAMERA TRAJECTORY
+Number of Positions : 42
+Initial Position : [0. 0. 0.]
+Final Position : [ 0.98622124 -2.39172512  3.93906919]
+Displacement Vector : [ 0.98622124 -2.39172512  3.93906919]
+Displacement : 4.71266883
+Path Length : 22.10468811
+Directness : 0.21319771
+
+POSE VALIDATION
+Mean Pose Difference : 0.0000000000
+Maximum Pose Difference : 0.0000000000

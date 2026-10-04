@@ -1,0 +1,28 @@
+STAGE 7 - TASK 3
+ROOM-SPECIFIC SEMANTIC OBJECT DETECTION
+======================================================================
+
+Total Images : 141
+Confidence Threshold : 0.5
+IoU Threshold : 0.5
+Raw Detections : 48
+Filtered Detections : 27
+Frames With Detections : 26
+Average Detections Per Frame : 0.191
+
+ALLOWED CLASSES
+backpack
+bed
+book
+bottle
+chair
+cup
+dining table
+keyboard
+laptop
+
+DETECTED CLASS COUNTS
+laptop : 14
+bed : 9
+keyboard : 2
+chair : 2

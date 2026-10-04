@@ -1,0 +1,44 @@
+STAGE 5 MINI PROJECT
+MONOCULAR VISUAL ODOMETRY
+======================================================================
+
+Total Image Pairs : 140
+Processed Pairs : 124
+Successful Pairs : 124
+Failed Pairs : 16
+
+Trajectory Shape : (141, 3)
+
+Initial Camera Position
+[0. 0. 0.]
+
+Final Camera Position
+[ -4.04332235 -10.48085767  11.89146809]
+
+Displacement Vector
+[ -4.04332235 -10.48085767  11.89146809]
+Displacement Magnitude (arbitrary scale): 16.358602
+
+Total Path Length (arbitrary scale): 124.000000
+Average Frame Motion: 0.885714
+Median Frame Motion: 1.000000
+Minimum Frame Motion: 0.000000
+Maximum Frame Motion: 1.000000
+
+Trajectory Directness: 0.131924
+
+MATCH STATISTICS
+Minimum Good Matches : 0
+Maximum Good Matches : 700
+Average Good Matches : 364.25
+
+POSE STATISTICS
+Minimum Pose Inliers : 0
+Maximum Pose Inliers : 669
+Average Pose Inliers : 167.91
+Average Pose Outliers : 225.62
+
+IMPORTANT LIMITATION
+This is monocular visual odometry.
+Absolute translation scale is unknown.
+Therefore trajectory distances are reported in arbitrary scale units.

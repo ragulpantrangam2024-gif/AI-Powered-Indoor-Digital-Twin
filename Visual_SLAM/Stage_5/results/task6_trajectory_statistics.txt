@@ -1,0 +1,27 @@
+STAGE 5 - TASK 6
+CAMERA TRAJECTORY ANALYSIS
+============================================================
+
+Number of Positions : 125
+
+Initial Position:
+[0. 0. 0.]
+
+Final Position:
+[ 13.74260653 -13.65119172 -13.0620793 ]
+
+Displacement Vector:
+[ 13.74260653 -13.65119172 -13.0620793 ]
+
+Displacement Distance : 23.363052
+Total Path Length : 124.000000
+Average Frame Motion : 1.000000
+Median Frame Motion : 1.000000
+Minimum Frame Motion : 1.000000
+Maximum Frame Motion : 1.000000
+
+X Range : 0.000000 to 15.935449
+Y Range : -18.545724 to 1.227620
+Z Range : -20.569442 to 0.000000
+
+Trajectory Efficiency : 0.188412

@@ -1,0 +1,33 @@
+STAGE 7 - TASK 4
+NEAREST-KEYFRAME 2D TO 3D SEMANTIC ASSOCIATION
+======================================================================
+
+Total YOLO detections: 27
+Processed detections: 27
+Successful associations: 23
+Failed associations: 4
+Too-far detections: 0
+Association success rate: 85.19%
+
+Nearest-keyframe statistics
+Minimum frame distance: 0
+Maximum frame distance: 5
+Average frame distance: 1.92
+
+SEMANTIC OBJECT SUMMARY
+
+bed
+Observations: 9
+Mean 3D position: (0.5767, -0.0266, 6.8621)
+
+chair
+Observations: 2
+Mean 3D position: (1.0826, -0.9426, 2.8407)
+
+keyboard
+Observations: 2
+Mean 3D position: (4.4034, -0.9372, 3.9336)
+
+laptop
+Observations: 10
+Mean 3D position: (5.7763, 1.3757, -0.8391)

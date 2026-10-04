@@ -1,0 +1,18 @@
+STAGE 7 - TASK 2
+INTERACTIVE 3D DIGITAL TWIN VISUALIZATION
+======================================================================
+
+3D MAP
+Number of Points : 2236
+Map Shape : (2236, 3)
+X Range : -154.339639 to 325.383617
+Y Range : -53.380566 to 85.859108
+Z Range : -133.067986 to 371.291331
+
+CAMERA TRAJECTORY
+Keyframes : 42
+Start Position : [0. 0. 0.]
+End Position : [ 0.98622124 -2.39172512  3.93906919]
+Displacement : 4.712669
+Path Length : 22.104688
+Directness : 0.213198

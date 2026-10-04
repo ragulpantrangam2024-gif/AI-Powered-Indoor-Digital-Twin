@@ -1,0 +1,32 @@
+STAGE 7 - TASK 3
+SEMANTIC OBJECT DETECTION
+======================================================================
+
+Total Images : 141
+Frames With Detections : 75
+Total Detections : 110
+Average Detections Per Frame : 0.780
+
+OBJECT CLASS COUNTS
+refrigerator : 16
+bed : 14
+laptop : 14
+chair : 13
+bowl : 10
+keyboard : 5
+cup : 5
+tv : 5
+oven : 4
+couch : 4
+backpack : 4
+book : 4
+car : 3
+bottle : 3
+potted plant : 2
+microwave : 1
+person : 1
+cat : 1
+sink : 1
+
+CONFIDENCE THRESHOLD
+0.35

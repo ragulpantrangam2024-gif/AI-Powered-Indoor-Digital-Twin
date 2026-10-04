@@ -1,0 +1,1360 @@
+[
+  {
+    "frame_index": 0,
+    "filename": "frame_000000.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 1,
+    "filename": "frame_000001.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 2,
+    "filename": "frame_000002.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 3,
+    "filename": "frame_000003.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 4,
+    "filename": "frame_000004.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 5,
+    "filename": "frame_000005.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 6,
+    "filename": "frame_000006.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 7,
+    "filename": "frame_000007.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 8,
+    "filename": "frame_000008.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 9,
+    "filename": "frame_000009.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 10,
+    "filename": "frame_000010.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 11,
+    "filename": "frame_000011.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 12,
+    "filename": "frame_000012.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 13,
+    "filename": "frame_000013.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 14,
+    "filename": "frame_000014.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 15,
+    "filename": "frame_000015.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 16,
+    "filename": "frame_000016.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 17,
+    "filename": "frame_000017.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 18,
+    "filename": "frame_000018.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 19,
+    "filename": "frame_000019.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 20,
+    "filename": "frame_000020.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 21,
+    "filename": "frame_000021.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 22,
+    "filename": "frame_000022.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 23,
+    "filename": "frame_000023.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 24,
+    "filename": "frame_000024.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 25,
+    "filename": "frame_000025.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 26,
+    "filename": "frame_000026.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 27,
+    "filename": "frame_000027.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 28,
+    "filename": "frame_000028.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 29,
+    "filename": "frame_000029.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 30,
+    "filename": "frame_000030.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 31,
+    "filename": "frame_000031.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 32,
+    "filename": "frame_000032.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 33,
+    "filename": "frame_000033.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 34,
+    "filename": "frame_000034.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 35,
+    "filename": "frame_000035.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 36,
+    "filename": "frame_000036.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 37,
+    "filename": "frame_000037.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 38,
+    "filename": "frame_000038.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 39,
+    "filename": "frame_000039.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 40,
+    "filename": "frame_000040.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 41,
+    "filename": "frame_000041.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 42,
+    "filename": "frame_000042.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 43,
+    "filename": "frame_000043.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 44,
+    "filename": "frame_000044.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 45,
+    "filename": "frame_000045.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 46,
+    "filename": "frame_000046.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 47,
+    "filename": "frame_000047.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 48,
+    "filename": "frame_000048.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 49,
+    "filename": "frame_000049.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 50,
+    "filename": "frame_000050.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 51,
+    "filename": "frame_000051.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 52,
+    "filename": "frame_000052.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 53,
+    "filename": "frame_000053.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 59,
+        "class_name": "bed",
+        "confidence": 0.7442597150802612,
+        "bbox": {
+          "x1": 149.39002990722656,
+          "y1": 124.37831115722656,
+          "x2": 845.3203735351562,
+          "y2": 469.6973571777344
+        },
+        "center": {
+          "x": 497.3551940917969,
+          "y": 297.037841796875
+        },
+        "width": 695.9303588867188,
+        "height": 345.31903076171875
+      }
+    ]
+  },
+  {
+    "frame_index": 54,
+    "filename": "frame_000054.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 59,
+        "class_name": "bed",
+        "confidence": 0.6838418841362,
+        "bbox": {
+          "x1": 161.39605712890625,
+          "y1": 106.02296447753906,
+          "x2": 840.8820190429688,
+          "y2": 470.6351623535156
+        },
+        "center": {
+          "x": 501.1390380859375,
+          "y": 288.3290710449219
+        },
+        "width": 679.4859619140625,
+        "height": 364.6121826171875
+      }
+    ]
+  },
+  {
+    "frame_index": 55,
+    "filename": "frame_000055.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 59,
+        "class_name": "bed",
+        "confidence": 0.5616028308868408,
+        "bbox": {
+          "x1": 161.96499633789062,
+          "y1": 85.17528533935547,
+          "x2": 845.7319946289062,
+          "y2": 470.6428527832031
+        },
+        "center": {
+          "x": 503.8485107421875,
+          "y": 277.9090576171875
+        },
+        "width": 683.7669677734375,
+        "height": 385.4675598144531
+      }
+    ]
+  },
+  {
+    "frame_index": 56,
+    "filename": "frame_000056.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 59,
+        "class_name": "bed",
+        "confidence": 0.6245377659797668,
+        "bbox": {
+          "x1": 155.63339233398438,
+          "y1": 70.36947631835938,
+          "x2": 847.170654296875,
+          "y2": 464.7436218261719
+        },
+        "center": {
+          "x": 501.40203857421875,
+          "y": 267.5565490722656
+        },
+        "width": 691.5372314453125,
+        "height": 394.3741455078125
+      }
+    ]
+  },
+  {
+    "frame_index": 57,
+    "filename": "frame_000057.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 59,
+        "class_name": "bed",
+        "confidence": 0.6321808099746704,
+        "bbox": {
+          "x1": 117.14006042480469,
+          "y1": 67.34281921386719,
+          "x2": 846.3281860351562,
+          "y2": 466.2840270996094
+        },
+        "center": {
+          "x": 481.734130859375,
+          "y": 266.81341552734375
+        },
+        "width": 729.1881103515625,
+        "height": 398.94122314453125
+      }
+    ]
+  },
+  {
+    "frame_index": 58,
+    "filename": "frame_000058.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 59,
+    "filename": "frame_000059.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 60,
+    "filename": "frame_000060.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 59,
+        "class_name": "bed",
+        "confidence": 0.5811488628387451,
+        "bbox": {
+          "x1": 1.757501244544983,
+          "y1": 210.94412231445312,
+          "x2": 743.361572265625,
+          "y2": 471.7171325683594
+        },
+        "center": {
+          "x": 372.5595397949219,
+          "y": 341.33062744140625
+        },
+        "width": 741.6040649414062,
+        "height": 260.77301025390625
+      }
+    ]
+  },
+  {
+    "frame_index": 61,
+    "filename": "frame_000061.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 59,
+        "class_name": "bed",
+        "confidence": 0.5260781645774841,
+        "bbox": {
+          "x1": 1.3588043451309204,
+          "y1": 216.10861206054688,
+          "x2": 697.6461181640625,
+          "y2": 470.1163635253906
+        },
+        "center": {
+          "x": 349.5024719238281,
+          "y": 343.11248779296875
+        },
+        "width": 696.2872924804688,
+        "height": 254.00775146484375
+      }
+    ]
+  },
+  {
+    "frame_index": 62,
+    "filename": "frame_000062.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 59,
+        "class_name": "bed",
+        "confidence": 0.6355921030044556,
+        "bbox": {
+          "x1": 1.481041669845581,
+          "y1": 232.28317260742188,
+          "x2": 639.9374389648438,
+          "y2": 472.0408630371094
+        },
+        "center": {
+          "x": 320.709228515625,
+          "y": 352.1620178222656
+        },
+        "width": 638.4564208984375,
+        "height": 239.7576904296875
+      }
+    ]
+  },
+  {
+    "frame_index": 63,
+    "filename": "frame_000063.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 59,
+        "class_name": "bed",
+        "confidence": 0.5603923201560974,
+        "bbox": {
+          "x1": 0.3115982115268707,
+          "y1": 241.77572631835938,
+          "x2": 583.0774536132812,
+          "y2": 471.9067687988281
+        },
+        "center": {
+          "x": 291.69451904296875,
+          "y": 356.84124755859375
+        },
+        "width": 582.765869140625,
+        "height": 230.13104248046875
+      }
+    ]
+  },
+  {
+    "frame_index": 64,
+    "filename": "frame_000064.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 65,
+    "filename": "frame_000065.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 66,
+    "filename": "frame_000066.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 66,
+        "class_name": "keyboard",
+        "confidence": 0.610689640045166,
+        "bbox": {
+          "x1": 716.623779296875,
+          "y1": 172.34231567382812,
+          "x2": 847.8499145507812,
+          "y2": 229.87362670898438
+        },
+        "center": {
+          "x": 782.23681640625,
+          "y": 201.10797119140625
+        },
+        "width": 131.22613525390625,
+        "height": 57.53131103515625
+      }
+    ]
+  },
+  {
+    "frame_index": 67,
+    "filename": "frame_000067.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 66,
+        "class_name": "keyboard",
+        "confidence": 0.6151014566421509,
+        "bbox": {
+          "x1": 663.7604370117188,
+          "y1": 186.40093994140625,
+          "x2": 847.3040161132812,
+          "y2": 255.81423950195312
+        },
+        "center": {
+          "x": 755.5322265625,
+          "y": 221.1075897216797
+        },
+        "width": 183.5435791015625,
+        "height": 69.41329956054688
+      }
+    ]
+  },
+  {
+    "frame_index": 68,
+    "filename": "frame_000068.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 69,
+    "filename": "frame_000069.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 70,
+    "filename": "frame_000070.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 71,
+    "filename": "frame_000071.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 72,
+    "filename": "frame_000072.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 73,
+    "filename": "frame_000073.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 74,
+    "filename": "frame_000074.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 75,
+    "filename": "frame_000075.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 76,
+    "filename": "frame_000076.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 77,
+    "filename": "frame_000077.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 78,
+    "filename": "frame_000078.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 79,
+    "filename": "frame_000079.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 80,
+    "filename": "frame_000080.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 81,
+    "filename": "frame_000081.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 82,
+    "filename": "frame_000082.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 83,
+    "filename": "frame_000083.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 84,
+    "filename": "frame_000084.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 85,
+    "filename": "frame_000085.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 86,
+    "filename": "frame_000086.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 87,
+    "filename": "frame_000087.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 88,
+    "filename": "frame_000088.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 89,
+    "filename": "frame_000089.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 90,
+    "filename": "frame_000090.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 91,
+    "filename": "frame_000091.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 92,
+    "filename": "frame_000092.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 93,
+    "filename": "frame_000093.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 94,
+    "filename": "frame_000094.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 95,
+    "filename": "frame_000095.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 96,
+    "filename": "frame_000096.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 97,
+    "filename": "frame_000097.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 98,
+    "filename": "frame_000098.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 63,
+        "class_name": "laptop",
+        "confidence": 0.7859528064727783,
+        "bbox": {
+          "x1": 507.1159362792969,
+          "y1": 369.9978332519531,
+          "x2": 624.4252319335938,
+          "y2": 474.4020690917969
+        },
+        "center": {
+          "x": 565.7705688476562,
+          "y": 422.199951171875
+        },
+        "width": 117.30929565429688,
+        "height": 104.40423583984375
+      }
+    ]
+  },
+  {
+    "frame_index": 99,
+    "filename": "frame_000099.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 63,
+        "class_name": "laptop",
+        "confidence": 0.9039448499679565,
+        "bbox": {
+          "x1": 436.8537902832031,
+          "y1": 334.4164733886719,
+          "x2": 601.6212158203125,
+          "y2": 464.26300048828125
+        },
+        "center": {
+          "x": 519.2374877929688,
+          "y": 399.3397216796875
+        },
+        "width": 164.76742553710938,
+        "height": 129.84652709960938
+      }
+    ]
+  },
+  {
+    "frame_index": 100,
+    "filename": "frame_000100.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 63,
+        "class_name": "laptop",
+        "confidence": 0.870981752872467,
+        "bbox": {
+          "x1": 381.9460144042969,
+          "y1": 297.07269287109375,
+          "x2": 542.1346435546875,
+          "y2": 421.9031677246094
+        },
+        "center": {
+          "x": 462.04034423828125,
+          "y": 359.4879150390625
+        },
+        "width": 160.18862915039062,
+        "height": 124.83047485351562
+      }
+    ]
+  },
+  {
+    "frame_index": 101,
+    "filename": "frame_000101.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 63,
+        "class_name": "laptop",
+        "confidence": 0.9011150598526001,
+        "bbox": {
+          "x1": 330.83367919921875,
+          "y1": 264.1545715332031,
+          "x2": 489.1046142578125,
+          "y2": 390.8124084472656
+        },
+        "center": {
+          "x": 409.9691467285156,
+          "y": 327.4834899902344
+        },
+        "width": 158.27093505859375,
+        "height": 126.6578369140625
+      }
+    ]
+  },
+  {
+    "frame_index": 102,
+    "filename": "frame_000102.jpg",
+    "num_detections": 2,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 63,
+        "class_name": "laptop",
+        "confidence": 0.8844825625419617,
+        "bbox": {
+          "x1": 292.0523986816406,
+          "y1": 254.76654052734375,
+          "x2": 454.2874450683594,
+          "y2": 378.9677429199219
+        },
+        "center": {
+          "x": 373.169921875,
+          "y": 316.86712646484375
+        },
+        "width": 162.23504638671875,
+        "height": 124.20120239257812
+      },
+      {
+        "detection_id": 1,
+        "class_id": 56,
+        "class_name": "chair",
+        "confidence": 0.5801971554756165,
+        "bbox": {
+          "x1": 686.5640869140625,
+          "y1": 303.11712646484375,
+          "x2": 847.7838134765625,
+          "y2": 465.610107421875
+        },
+        "center": {
+          "x": 767.1739501953125,
+          "y": 384.3636169433594
+        },
+        "width": 161.2197265625,
+        "height": 162.49298095703125
+      }
+    ]
+  },
+  {
+    "frame_index": 103,
+    "filename": "frame_000103.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 63,
+        "class_name": "laptop",
+        "confidence": 0.8828575015068054,
+        "bbox": {
+          "x1": 270.9438171386719,
+          "y1": 249.0972442626953,
+          "x2": 432.39599609375,
+          "y2": 380.1249084472656
+        },
+        "center": {
+          "x": 351.669921875,
+          "y": 314.611083984375
+        },
+        "width": 161.45217895507812,
+        "height": 131.0276641845703
+      }
+    ]
+  },
+  {
+    "frame_index": 104,
+    "filename": "frame_000104.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 63,
+        "class_name": "laptop",
+        "confidence": 0.9011790156364441,
+        "bbox": {
+          "x1": 266.29437255859375,
+          "y1": 255.53643798828125,
+          "x2": 433.1437072753906,
+          "y2": 386.32684326171875
+        },
+        "center": {
+          "x": 349.71905517578125,
+          "y": 320.931640625
+        },
+        "width": 166.84933471679688,
+        "height": 130.7904052734375
+      }
+    ]
+  },
+  {
+    "frame_index": 105,
+    "filename": "frame_000105.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 63,
+        "class_name": "laptop",
+        "confidence": 0.9176956415176392,
+        "bbox": {
+          "x1": 267.11273193359375,
+          "y1": 266.03631591796875,
+          "x2": 433.13824462890625,
+          "y2": 401.76434326171875
+        },
+        "center": {
+          "x": 350.12548828125,
+          "y": 333.90032958984375
+        },
+        "width": 166.0255126953125,
+        "height": 135.72802734375
+      }
+    ]
+  },
+  {
+    "frame_index": 106,
+    "filename": "frame_000106.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 63,
+        "class_name": "laptop",
+        "confidence": 0.9283450245857239,
+        "bbox": {
+          "x1": 269.3664855957031,
+          "y1": 284.2405090332031,
+          "x2": 438.29986572265625,
+          "y2": 423.7394104003906
+        },
+        "center": {
+          "x": 353.83319091796875,
+          "y": 353.9899597167969
+        },
+        "width": 168.93338012695312,
+        "height": 139.4989013671875
+      }
+    ]
+  },
+  {
+    "frame_index": 107,
+    "filename": "frame_000107.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 63,
+        "class_name": "laptop",
+        "confidence": 0.894225537776947,
+        "bbox": {
+          "x1": 262.02703857421875,
+          "y1": 280.54638671875,
+          "x2": 434.46539306640625,
+          "y2": 422.9352111816406
+        },
+        "center": {
+          "x": 348.2462158203125,
+          "y": 351.74078369140625
+        },
+        "width": 172.4383544921875,
+        "height": 142.38882446289062
+      }
+    ]
+  },
+  {
+    "frame_index": 108,
+    "filename": "frame_000108.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 63,
+        "class_name": "laptop",
+        "confidence": 0.8981316685676575,
+        "bbox": {
+          "x1": 234.76412963867188,
+          "y1": 259.19134521484375,
+          "x2": 408.5489196777344,
+          "y2": 395.8731384277344
+        },
+        "center": {
+          "x": 321.6565246582031,
+          "y": 327.5322265625
+        },
+        "width": 173.7847900390625,
+        "height": 136.68179321289062
+      }
+    ]
+  },
+  {
+    "frame_index": 109,
+    "filename": "frame_000109.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 63,
+        "class_name": "laptop",
+        "confidence": 0.901433527469635,
+        "bbox": {
+          "x1": 179.1276397705078,
+          "y1": 244.42242431640625,
+          "x2": 361.6754150390625,
+          "y2": 381.46197509765625
+        },
+        "center": {
+          "x": 270.4015197753906,
+          "y": 312.94219970703125
+        },
+        "width": 182.5477752685547,
+        "height": 137.03955078125
+      }
+    ]
+  },
+  {
+    "frame_index": 110,
+    "filename": "frame_000110.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 63,
+        "class_name": "laptop",
+        "confidence": 0.8684921264648438,
+        "bbox": {
+          "x1": 91.46958923339844,
+          "y1": 247.74212646484375,
+          "x2": 284.155517578125,
+          "y2": 390.79833984375
+        },
+        "center": {
+          "x": 187.81256103515625,
+          "y": 319.2702331542969
+        },
+        "width": 192.68592834472656,
+        "height": 143.05621337890625
+      }
+    ]
+  },
+  {
+    "frame_index": 111,
+    "filename": "frame_000111.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 63,
+        "class_name": "laptop",
+        "confidence": 0.8910727500915527,
+        "bbox": {
+          "x1": 0.33691099286079407,
+          "y1": 267.60479736328125,
+          "x2": 178.9076690673828,
+          "y2": 418.95135498046875
+        },
+        "center": {
+          "x": 89.6222915649414,
+          "y": 343.278076171875
+        },
+        "width": 178.5707550048828,
+        "height": 151.3465576171875
+      }
+    ]
+  },
+  {
+    "frame_index": 112,
+    "filename": "frame_000112.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 113,
+    "filename": "frame_000113.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 114,
+    "filename": "frame_000114.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 115,
+    "filename": "frame_000115.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 116,
+    "filename": "frame_000116.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 117,
+    "filename": "frame_000117.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 118,
+    "filename": "frame_000118.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 119,
+    "filename": "frame_000119.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 120,
+    "filename": "frame_000120.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 121,
+    "filename": "frame_000121.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 122,
+    "filename": "frame_000122.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 123,
+    "filename": "frame_000123.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 124,
+    "filename": "frame_000124.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 125,
+    "filename": "frame_000125.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 126,
+    "filename": "frame_000126.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 127,
+    "filename": "frame_000127.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 128,
+    "filename": "frame_000128.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 129,
+    "filename": "frame_000129.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 130,
+    "filename": "frame_000130.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 131,
+    "filename": "frame_000131.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 132,
+    "filename": "frame_000132.jpg",
+    "num_detections": 1,
+    "detections": [
+      {
+        "detection_id": 0,
+        "class_id": 56,
+        "class_name": "chair",
+        "confidence": 0.5216180086135864,
+        "bbox": {
+          "x1": 0.17948436737060547,
+          "y1": 171.8678741455078,
+          "x2": 130.992919921875,
+          "y2": 470.61480712890625
+        },
+        "center": {
+          "x": 65.5862045288086,
+          "y": 321.2413330078125
+        },
+        "width": 130.8134307861328,
+        "height": 298.7469482421875
+      }
+    ]
+  },
+  {
+    "frame_index": 133,
+    "filename": "frame_000133.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 134,
+    "filename": "frame_000134.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 135,
+    "filename": "frame_000135.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 136,
+    "filename": "frame_000136.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 137,
+    "filename": "frame_000137.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 138,
+    "filename": "frame_000138.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 139,
+    "filename": "frame_000139.jpg",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "frame_index": 140,
+    "filename": "frame_000140.jpg",
+    "num_detections": 0,
+    "detections": []
+  }
+]

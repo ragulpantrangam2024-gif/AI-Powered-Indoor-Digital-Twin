@@ -1,0 +1,11 @@
+STAGE 5 - TASK 3
+ESSENTIAL MATRIX ESTIMATION
+============================================================
+
+Video Resolution : 848 x 478
+Calibration Resolution : 867 x 1156
+
+Processed Pairs : 124
+Average Matches : 393.53
+Average Inliers : 329.84
+Average Outliers : 63.69

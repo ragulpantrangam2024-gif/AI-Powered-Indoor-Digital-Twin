@@ -1,0 +1,50 @@
+STAGE 6 - TASK 6
+FINAL RECONSTRUCTION EVALUATION
+======================================================================
+
+DATASET
+Total Images : 141
+Keyframes : 42
+Task 4 Map Points : 639
+Task 5 Map Points : 2236
+
+REPROJECTION ERROR
+Initial RMS : 13.58463798 pixels
+Final RMS : 2.34424997 pixels
+Initial Mean : 0.94361792 pixels
+Final Mean : 0.39853524 pixels
+Initial Median : 0.29611065 pixels
+Final Median : 0.25743819 pixels
+RMS Improvement : 82.7434 %
+
+TASK 4 MAP
+Minimum : [-27.95939064 -13.94243145 -26.60170174]
+Maximum : [47.71693039 19.94694138 45.91415787]
+Mean : [ 3.55831829 -2.34726481 10.87447477]
+Standard Deviation : [9.03821163 4.15244299 8.39130365]
+Axis Ranges : [75.67632103 33.88937283 72.5158596 ]
+
+TASK 5 OPTIMIZED MAP
+Minimum : [-154.33963874  -53.38056641 -133.06798577]
+Maximum : [325.38361709  85.85910769 371.29133103]
+Mean : [ 4.79823101 -1.30623619  7.8613906 ]
+Standard Deviation : [20.62599312  6.05946017 17.47931731]
+Axis Ranges : [479.72325583 139.2396741  504.3593168 ]
+
+TASK 4 TRAJECTORY
+Start : [0. 0. 0.]
+End : [ 1.04502417 -2.34961479  3.92527012]
+Displacement : 4.69260170
+Path Length : 21.00000000
+Directness : 0.22345722
+
+TASK 5 OPTIMIZED TRAJECTORY
+Start : [0. 0. 0.]
+End : [ 0.98622124 -2.39172512  3.93906919]
+Displacement : 4.71266883
+Path Length : 22.10468811
+Directness : 0.21319771
+
+CAMERA POSE REFINEMENT
+Mean Position Difference : 0.20130491
+Maximum Position Difference : 1.17794002

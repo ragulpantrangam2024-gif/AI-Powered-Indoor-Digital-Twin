@@ -1,0 +1,21 @@
+STAGE 6 - TASK 5
+FAST BUNDLE ADJUSTMENT
+======================================================================
+
+Images : 141
+Keyframes : 42
+Fixed Camera : 0
+Optimized Cameras : 41
+3D Points : 2236
+Observations : 4472
+Successful Pairs : 21
+
+Initial RMS : 13.58463798 pixels
+Final RMS : 2.34424997 pixels
+Initial Mean : 0.94361792 pixels
+Final Mean : 0.39853524 pixels
+RMS Improvement : 82.7434 %
+
+Optimizer Success : False
+Function Evaluations : 100
+Optimizer Message : The maximum number of function evaluations is exceeded.

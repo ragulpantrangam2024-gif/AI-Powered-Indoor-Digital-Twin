@@ -1,0 +1,42 @@
+STAGE 5 - TASK 7
+MONOCULAR VISUAL ODOMETRY DRIFT ANALYSIS
+============================================================
+
+Trajectory Shape : (125, 3)
+Camera Positions : 125
+
+FRAME-TO-FRAME MOTION
+Mean Motion : 1.000000
+Std Motion : 0.000000
+Min Motion : 1.000000
+Max Motion : 1.000000
+
+MOTION CONSISTENCY
+Coefficient of Variation : 0.000000
+
+OVERALL TRAJECTORY
+Overall Displacement : 22.767403
+
+DEVIATION FROM STRAIGHT LINE
+Mean Deviation : 7.089069
+Median Deviation : 8.892010
+Maximum Deviation : 12.421575
+Final Deviation : 0.000000
+
+NORMALIZED DEVIATION
+Mean Normalized Deviation : 0.311369
+Maximum Normalized Deviation : 0.545586
+
+MOTION CHANGE / INSTABILITY
+Mean Motion Change : 0.900012
+Maximum Motion Change : 1.998465
+
+HIGH-DEVIATION REGION
+90th Percentile Threshold : 10.555534
+High-Deviation Positions : 13
+
+IMPORTANT LIMITATION
+No ground-truth trajectory is available for this video.
+Therefore true ATE/RPE cannot be computed.
+The reported values represent internal trajectory instability and deviation.
+Translation scale is unknown because the system is monocular.

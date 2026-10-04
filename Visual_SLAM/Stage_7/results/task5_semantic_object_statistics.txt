@@ -1,0 +1,45 @@
+STAGE 7 - TASK 5
+SEMANTIC OBJECT FUSION / 3D CLUSTERING
+======================================================================
+
+Input observations: 23
+Fused semantic objects: 5
+DBSCAN epsilon: 2.0
+DBSCAN minimum samples: 1
+
+OBJECT SUMMARY
+
+Object ID: object_000
+Class: bed
+Observations: 9
+Mean confidence: 0.6166
+3D center: (0.5127, -0.1066, 6.8684)
+3D extent: (0.7591, 0.4808, 0.2605)
+
+Object ID: object_001
+Class: chair
+Observations: 2
+Mean confidence: 0.5509
+3D center: (1.0826, -0.9426, 2.8407)
+3D extent: (0.2366, 0.0396, 0.1233)
+
+Object ID: object_002
+Class: keyboard
+Observations: 2
+Mean confidence: 0.6129
+3D center: (4.4034, -0.9372, 3.9336)
+3D extent: (0.0000, 0.0003, 0.0498)
+
+Object ID: object_003
+Class: laptop
+Observations: 1
+Mean confidence: 0.7860
+3D center: (44.2165, 23.3582, -35.9096)
+3D extent: (0.0000, 0.0000, 0.0000)
+
+Object ID: object_004
+Class: laptop
+Observations: 9
+Mean confidence: 0.8983
+3D center: (1.5462, -1.0976, 3.0774)
+3D extent: (0.3730, 0.2343, 0.1433)

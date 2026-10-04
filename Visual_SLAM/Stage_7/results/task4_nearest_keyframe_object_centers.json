@@ -1,0 +1,38 @@
+[
+  {
+    "class_name": "bed",
+    "observation_count": 9,
+    "mean_3d_position": {
+      "x": 0.5766501357458877,
+      "y": -0.026604399757355717,
+      "z": 6.862119647401106
+    }
+  },
+  {
+    "class_name": "chair",
+    "observation_count": 2,
+    "mean_3d_position": {
+      "x": 1.0825585229408263,
+      "y": -0.9426050704189756,
+      "z": 2.8406641136445483
+    }
+  },
+  {
+    "class_name": "keyboard",
+    "observation_count": 2,
+    "mean_3d_position": {
+      "x": 4.40341887130062,
+      "y": -0.9371519543502445,
+      "z": 3.933619548905359
+    }
+  },
+  {
+    "class_name": "laptop",
+    "observation_count": 10,
+    "mean_3d_position": {
+      "x": 5.776340426493393,
+      "y": 1.3757392386881064,
+      "z": -0.8391004941050355
+    }
+  }
+]
